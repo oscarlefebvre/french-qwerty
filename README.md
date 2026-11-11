@@ -1,10 +1,40 @@
-# french-qwerty
+<p align="center">
+  <img src="assets/banniere.svg" alt="french-qwerty : tapez probleme, lisez problème. Les accents français sur un clavier QWERTY, sans changer de disposition." width="100%">
+</p>
 
-Écrire en français avec ses accents sur un clavier QWERTY, sans y penser.
+<h1 align="center">french-qwerty</h1>
 
-Vous tapez `probleme`, `deja`, `etait` ; macOS écrit **problème**, **déjà**, **était**.
-Pas de disposition de clavier à apprendre, pas de touche morte : ce dépôt est une
-liste de mots à importer dans les *remplacements de texte* de macOS.
+<p align="center">
+  <b>Écrire en français avec ses accents sur un clavier QWERTY, sans y penser.</b><br>
+  Une liste de mots à importer dans les remplacements de texte de macOS, iPhone et iPad.
+</p>
+
+<p align="center">
+  <a href="#installation-mac">Installation</a> ·
+  <a href="#les-règles">Les règles</a> ·
+  <a href="#proposer-un-mot">Proposer un mot</a> ·
+  <a href="#english">English</a>
+</p>
+
+---
+
+Vous avez un Mac avec un clavier américain (QWERTY) et vous écrivez en français ?
+Taper `é`, `è`, `à` ou `ç` demande un appui long ou une combinaison de touches, alors
+on finit par écrire « probleme » et « deja ».
+
+Avec ce repo, vous tapez le mot sans accent et macOS le corrige tout seul :
+
+| Vous tapez | macOS écrit |
+|---|---|
+| `probleme` | **problème** |
+| `deja` | **déjà** |
+| `etait` | **était** |
+| `francais` | **français** |
+| `voila` | **voilà** |
+
+Pas de disposition de clavier à apprendre, pas de touche morte, aucune app à installer :
+c'est la fonction *Remplacements de texte* déjà présente dans macOS. La liste complète
+est dans [`mots.txt`](mots.txt).
 
 ## Installation (Mac)
 
@@ -12,8 +42,8 @@ liste de mots à importer dans les *remplacements de texte* de macOS.
 2. Ouvrez **Réglages Système → Clavier → Saisie de texte → Remplacements de texte…**
 3. Glissez le fichier `.plist` dans la liste qui s'affiche.
 
-Les remplacements se synchronisent avec iCloud : ils arrivent aussi sur votre iPhone
-et votre iPad.
+Les remplacements se synchronisent avec iCloud : ils arrivent aussi sur votre **iPhone**
+et votre **iPad**.
 
 Pour mettre à jour, refaites la même chose avec le nouveau fichier. Pour retirer un
 mot, sélectionnez-le dans la liste et cliquez sur **−**.
@@ -40,7 +70,24 @@ courant ; cela se discute au cas par cas.
 Les mots refusés sont conservés dans [`exclus.txt`](exclus.txt) avec leur raison, pour
 ne pas refaire le débat.
 
+### Et pour les autres mots ?
+
+Les mots ambigus (`a`/`à`, `ou`/`où`, `ameliore`) ne seront jamais dans la liste. Pour
+eux, sur un clavier américain sous macOS :
+
+| Accent | Raccourci | Exemple |
+|---|---|---|
+| aigu | `Option` + `e`, puis la lettre | é |
+| grave | `Option` + `` ` ``, puis la lettre | è à ù |
+| circonflexe | `Option` + `i`, puis la lettre | ê î ô |
+| tréma | `Option` + `u`, puis la lettre | ë ï |
+| cédille | `Option` + `c` | ç |
+
+Ou maintenez simplement la touche de la lettre appuyée.
+
 ## Proposer un mot
+
+Ce repo vit de vos propositions : chaque mot ajouté profite à tout le monde.
 
 **Sans rien installer** : [ouvrez une issue « Proposer un mot »](../../issues/new?template=proposer-un-mot.yml).
 
@@ -65,6 +112,23 @@ python3 scripts/build.py
 ```
 
 Sur Mac, le script signale aussi les mots qui semblent exister en anglais.
+
+## English
+
+**french-qwerty** lets you type French with correct accents on a US QWERTY keyboard
+on macOS, iPhone and iPad, without switching keyboard layout or installing an app.
+
+It is a community-maintained list of French words for the built-in macOS
+*Text Replacements* feature: type `probleme`, `deja`, `francais` and macOS writes
+**problème**, **déjà**, **français**.
+
+- **Install**: download [`french-qwerty.plist`](french-qwerty.plist), open
+  *System Settings → Keyboard → Text Input → Text Replacements…* and drag the file
+  into the list. It syncs to iPhone and iPad through iCloud.
+- **Safe for bilingual typing**: a word is only accepted if its unaccented form is
+  not an English word, is not another French word, and has a single common accented
+  spelling. `selection` and `meme` are deliberately left out.
+- **Contribute**: add one accented word per line to [`mots.txt`](mots.txt), or open an issue.
 
 ## Licence
 

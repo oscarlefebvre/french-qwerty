@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 460" width="1280" height="460" role="img" aria-labelledby="t d">
+  <title id="t">french-qwerty</title>
+  <desc id="d">Un coq en marinière montre une liste de remplacements : deja devient déjà, etait devient était, francais devient français.</desc>
+  <defs>
+    <clipPath id="corps"><ellipse cx="735" cy="328" rx="72" ry="68"/></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="1278" height="458" rx="28" fill="#fbf3e4" stroke="#eadfc8" stroke-width="2"/>
+
+  <!-- Texte -->
+  <g font-family="Georgia, 'Times New Roman', serif" font-weight="700" fill="#1f2a44">
+    <text x="64" y="150" font-size="56">Tapez probleme.</text>
+    <text x="64" y="218" font-size="56">Lisez <tspan fill="#c2532d">problème.</tspan></text>
+  </g>
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" fill="#4a5568">
+    <text x="64" y="272">Les accents français sur un clavier QWERTY,</text>
+    <text x="64" y="304">sans changer de disposition.</text>
+  </g>
+  <g transform="rotate(-4 64 380)">
+    <text x="64" y="380" font-family="'Bradley Hand', 'Segoe Print', 'Comic Sans MS', cursive" font-size="27" font-weight="700" fill="#c2532d">aucune app à installer</text>
+  </g>
+  <path d="M360 372 C 420 400, 480 396, 540 372" fill="none" stroke="#c2532d" stroke-width="3" stroke-linecap="round"/>
+  <path d="M526 366 L 542 371 L 532 385" fill="none" stroke="#c2532d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Carte -->
+  <rect x="880" y="62" width="344" height="336" rx="20" fill="#1f2a44"/>
+  <text x="906" y="104" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#9fb0d0" letter-spacing="1">REMPLACEMENTS DE TEXTE</text>
+  <g font-size="22">
+    <g>
+      <rect x="900" y="124" width="304" height="54" rx="12" fill="#2a3759"/>
+      <text x="920" y="159" font-family="Menlo, Consolas, monospace" fill="#9fb0d0">deja</text>
+      <text x="1060" y="159" fill="#e9a13b" text-anchor="middle" font-family="Helvetica, Arial, sans-serif">→</text>
+      <text x="1184" y="159" text-anchor="end" font-family="Georgia, serif" font-weight="700" fill="#ffffff">déjà</text>
+    </g>
+    <g>
+      <rect x="900" y="190" width="304" height="54" rx="12" fill="#2a3759"/>
+      <text x="920" y="225" font-family="Menlo, Consolas, monospace" fill="#9fb0d0">etait</text>
+      <text x="1060" y="225" fill="#e9a13b" text-anchor="middle" font-family="Helvetica, Arial, sans-serif">→</text>
+      <text x="1184" y="225" text-anchor="end" font-family="Georgia, serif" font-weight="700" fill="#ffffff">était</text>
+    </g>
+    <g>
+      <rect x="900" y="256" width="304" height="54" rx="12" fill="#2a3759"/>
+      <text x="920" y="291" font-family="Menlo, Consolas, monospace" fill="#9fb0d0">francais</text>
+      <text x="1060" y="291" fill="#e9a13b" text-anchor="middle" font-family="Helvetica, Arial, sans-serif">→</text>
+      <text x="1184" y="291" text-anchor="end" font-family="Georgia, serif" font-weight="700" fill="#ffffff">français</text>
+    </g>
+    <g>
+      <rect x="900" y="322" width="304" height="54" rx="12" fill="#2a3759"/>
+      <text x="920" y="357" font-family="Menlo, Consolas, monospace" fill="#9fb0d0">systeme</text>
+      <text x="1060" y="357" fill="#e9a13b" text-anchor="middle" font-family="Helvetica, Arial, sans-serif">→</text>
+      <text x="1184" y="357" text-anchor="end" font-family="Georgia, serif" font-weight="700" fill="#ffffff">système</text>
+    </g>
+  </g>
+
+  <!-- Coq -->
+  <ellipse cx="740" cy="424" rx="96" ry="10" fill="#eadfc8"/>
+  <g stroke="#1f2a44" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- queue tricolore -->
+    <path d="M688 348 C 620 340, 590 280, 612 222 C 640 262, 668 290, 700 304 Z" fill="#2f5fd0"/>
+    <path d="M684 356 C 612 366, 574 320, 580 266 C 618 300, 652 318, 694 322 Z" fill="#ffffff"/>
+    <path d="M684 368 C 624 394, 580 368, 566 322 C 610 344, 650 348, 692 340 Z" fill="#d9482b"/>
+    <!-- pattes -->
+    <path d="M716 390 V 420 M700 422 H 730" fill="none" stroke="#e08a1e" stroke-width="7"/>
+    <path d="M758 390 V 420 M742 422 H 772" fill="none" stroke="#e08a1e" stroke-width="7"/>
+    <!-- corps en marinière -->
+    <ellipse cx="735" cy="328" rx="72" ry="68" fill="#ffffff"/>
+    <g clip-path="url(#corps)" stroke="none" fill="#1f2a44">
+      <rect x="650" y="306" width="170" height="9"/>
+      <rect x="650" y="328" width="170" height="9"/>
+      <rect x="650" y="350" width="170" height="9"/>
+      <rect x="650" y="372" width="170" height="9"/>
+    </g>
+    <ellipse cx="735" cy="328" rx="72" ry="68" fill="none"/>
+    <!-- crête -->
+    <circle cx="752" cy="182" r="14" fill="#d9482b"/>
+    <circle cx="774" cy="186" r="14" fill="#d9482b"/>
+    <circle cx="792" cy="200" r="12" fill="#d9482b"/>
+    <!-- barbillon -->
+    <ellipse cx="802" cy="268" rx="9" ry="15" fill="#d9482b"/>
+    <!-- tête -->
+    <circle cx="760" cy="232" r="46" fill="#ffffff"/>
+    <!-- bec -->
+    <path d="M802 222 L 838 236 L 802 250 Z" fill="#f0a030"/>
+    <!-- béret -->
+    <path d="M704 212 C 700 176, 746 164, 776 180 C 790 188, 786 200, 772 202 C 750 204, 726 208, 704 212 Z" fill="#1f2a44"/>
+    <path d="M742 170 L 746 158" fill="none"/>
+    <!-- foulard -->
+    <path d="M722 270 C 744 286, 776 286, 796 270 L 790 292 C 768 302, 744 300, 726 290 Z" fill="#d9482b"/>
+    <!-- aile qui montre la carte -->
+    <path d="M748 318 C 780 300, 820 296, 856 300 C 836 316, 836 322, 852 334 C 816 344, 778 344, 750 338 Z" fill="#ffffff"/>
+  </g>
+  <circle cx="778" cy="228" r="6.5" fill="#1f2a44"/>
+  <circle cx="780" cy="226" r="2" fill="#ffffff"/>
+  <circle cx="756" cy="250" r="9" fill="#f6b8a8"/>
+</svg>
