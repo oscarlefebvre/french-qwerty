@@ -42,6 +42,9 @@ est dans [`mots.txt`](mots.txt).
 2. Ouvrez **Réglages Système → Clavier → Saisie de texte → Remplacements de texte…**
 3. Glissez le fichier `.plist` dans la liste qui s'affiche.
 
+L'import ne fait qu'ajouter les mots que vous n'aviez pas encore : vos remplacements
+existants sont conservés, rien n'est supprimé et aucun doublon n'est créé.
+
 Les remplacements se synchronisent avec iCloud : ils arrivent aussi sur votre **iPhone**
 et votre **iPad**.
 
@@ -139,7 +142,8 @@ It is a community-maintained list of French words for the built-in macOS
 
 - **Install**: download [`french-qwerty.plist`](french-qwerty.plist), open
   *System Settings → Keyboard → Text Input → Text Replacements…* and drag the file
-  into the list. It syncs to iPhone and iPad through iCloud.
+  into the list. Importing only adds the words you do not have yet: your existing
+  replacements are kept. It syncs to iPhone and iPad through iCloud.
 - **Safe for bilingual typing**: a word is only accepted if its unaccented form is
   not an English word, is not another French word, and has a single common accented
   spelling. Words that collide with English (`meme`, `selection`, `hotel`) live in a
