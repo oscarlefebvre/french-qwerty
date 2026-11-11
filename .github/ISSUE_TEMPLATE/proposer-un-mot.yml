@@ -1,0 +1,30 @@
+name: Proposer un mot
+description: Suggérer un mot à ajouter à la liste, sans toucher au code
+title: "Ajouter : "
+labels: [mot]
+body:
+  - type: input
+    id: mot
+    attributes:
+      label: Mot, avec ses accents
+      placeholder: problème
+    validations:
+      required: true
+  - type: checkboxes
+    id: regles
+    attributes:
+      label: Règles
+      options:
+        - label: Sans accent, le mot n'existe pas en anglais
+          required: true
+        - label: Sans accent, le mot n'existe pas en français
+          required: true
+        - label: Il n'a qu'une seule forme accentuée courante
+          required: true
+        - label: Il n'est ni dans mots.txt ni dans exclus.txt
+          required: true
+  - type: textarea
+    id: remarques
+    attributes:
+      label: Remarques
+      description: Un doute sur une règle ? Dites-le ici.
