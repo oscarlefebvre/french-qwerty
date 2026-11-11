@@ -1,18 +1,8 @@
 # Mots déjà étudiés et refusés, avec la raison. Un raccourci (sans accent) par ligne.
 # Avant de proposer un mot, vérifiez qu'il n'est pas ici.
 
-# Règle 1 : le mot sans accent existe en anglais
-comprehension   # anglais : comprehension
-ingredient      # anglais : ingredient
-ingredients     # anglais : ingredients
-meme            # anglais : meme
-montreal        # anglais : Montreal
-premiere        # anglais : premiere
-quebec          # anglais : Quebec
-seance          # anglais : seance
-seances         # anglais : seances
-selection       # anglais : selection
-tot             # anglais : tot
+# Les mots dont la forme sans accent existe en anglais (règle 1) ne sont pas ici :
+# ils vont dans mots-optionnels.txt.
 
 # Règle 2 : le mot sans accent est déjà un mot français
 foret           # un foret (de perceuse) / une forêt

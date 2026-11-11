@@ -21,12 +21,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 scripts/build.py
-      - name: Publier le .plist s'il a changé
+      - name: Publier les .plist s'ils ont changé
         run: |
-          git add french-qwerty.plist
+          git add '*.plist'
           if ! git diff --cached --quiet; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "Régénère french-qwerty.plist"
+            git commit -m "Régénère les .plist"
             git push
           fi

@@ -45,6 +45,16 @@ est dans [`mots.txt`](mots.txt).
 Les remplacements se synchronisent avec iCloud : ils arrivent aussi sur votre **iPhone**
 et votre **iPad**.
 
+### Deux listes, au choix
+
+| Fichier | Contenu | Pour qui |
+|---|---|---|
+| [`french-qwerty.plist`](french-qwerty.plist) | Les mots sans risque ([`mots.txt`](mots.txt)) | Tout le monde, même si vous écrivez aussi en anglais |
+| [`french-qwerty-optionnel.plist`](french-qwerty-optionnel.plist) | Les mots qui existent aussi en anglais sans accent : `meme` → même, `selection` → sélection, `hotel` → hôtel… ([`mots-optionnels.txt`](mots-optionnels.txt)) | Ceux qui n'écrivent pas, ou peu, en anglais sur cet appareil |
+
+La liste optionnelle s'installe de la même façon, en plus de la première. Attention :
+avec elle, « meme » deviendra **toujours** « même », y compris dans un texte anglais.
+
 Pour mettre à jour, refaites la même chose avec le nouveau fichier. Pour retirer un
 mot, sélectionnez-le dans la liste et cliquez sur **−**.
 
@@ -56,7 +66,9 @@ La liste doit pouvoir être installée les yeux fermés, y compris par quelqu'un
 aussi en anglais. Un mot n'entre que s'il respecte les trois règles :
 
 1. **Sans accent, il n'existe pas en anglais.**
-   `selection` → sélection est refusé : il casserait « selection » dans un texte anglais.
+   `selection` → sélection casserait « selection » dans un texte anglais. Ces mots ne
+   sont pas perdus : ils vont dans la liste optionnelle, à condition de respecter les
+   règles 2 et 3.
 2. **Sans accent, il n'existe pas en français.**
    `foret` → forêt est refusé : un foret est aussi un outil.
 3. **Il n'a qu'une seule forme accentuée courante.**
@@ -67,7 +79,7 @@ aussi en anglais. Un mot n'entre que s'il respecte les trois règles :
 Une forme concurrente très rare (« maniéré » face à « manière ») ne bloque pas un mot
 courant ; cela se discute au cas par cas.
 
-Les mots refusés sont conservés dans [`exclus.txt`](exclus.txt) avec leur raison, pour
+Les mots refusés pour les règles 2 et 3 sont conservés dans [`exclus.txt`](exclus.txt) avec leur raison, pour
 ne pas refaire le débat.
 
 ### Et pour les autres mots ?
@@ -98,8 +110,11 @@ ajoutez votre mot, **avec ses accents**, à sa place alphabétique. Une ligne, u
 problème
 ```
 
-C'est tout : le raccourci sans accent (`probleme`) est déduit automatiquement, et le
-fichier `.plist` est régénéré après la fusion. Ne le modifiez pas à la main.
+Si le mot existe en anglais sans accent, ajoutez-le plutôt à
+[`mots-optionnels.txt`](mots-optionnels.txt).
+
+C'est tout : le raccourci sans accent (`probleme`) est déduit automatiquement, et les
+fichiers `.plist` sont régénérés après la fusion. Ne les modifiez pas à la main.
 
 Chaque proposition est vérifiée automatiquement (doublons, ordre, mots exclus). Les
 règles 1 à 3 sont vérifiées par un humain : dites-le dans votre proposition si vous
@@ -127,7 +142,9 @@ It is a community-maintained list of French words for the built-in macOS
   into the list. It syncs to iPhone and iPad through iCloud.
 - **Safe for bilingual typing**: a word is only accepted if its unaccented form is
   not an English word, is not another French word, and has a single common accented
-  spelling. `selection` and `meme` are deliberately left out.
+  spelling. Words that collide with English (`meme`, `selection`, `hotel`) live in a
+  separate opt-in file, [`french-qwerty-optionnel.plist`](french-qwerty-optionnel.plist),
+  for people who rarely type English on that device.
 - **Contribute**: add one accented word per line to [`mots.txt`](mots.txt), or open an issue.
 
 ## Licence

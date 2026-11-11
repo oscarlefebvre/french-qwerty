@@ -1,0 +1,37 @@
+# Liste optionnelle : mots dont la forme sans accent existe AUSSI en anglais.
+# À installer seulement si vous n'écrivez pas (ou peu) en anglais sur cet appareil :
+# « meme » deviendra toujours « même ».
+# Un mot par ligne, avec ses accents, par ordre alphabétique du mot sans accent.
+château
+compréhension
+début
+décision
+derrière
+différence
+élément
+entrée
+étude
+gâteau
+général
+grâce
+hôtel
+ingrédient
+ingrédients
+kilomètre
+matinée
+même
+mère
+mètre
+Montréal
+numéro
+œuvre
+première
+Québec
+séance
+séances
+sélection
+soirée
+télévision
+théâtre
+tôt
+zéro

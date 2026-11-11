@@ -15,14 +15,13 @@ body:
     attributes:
       label: Règles
       options:
-        - label: Sans accent, le mot n'existe pas en anglais
-          required: true
         - label: Sans accent, le mot n'existe pas en français
           required: true
         - label: Il n'a qu'une seule forme accentuée courante
           required: true
-        - label: Il n'est ni dans mots.txt ni dans exclus.txt
+        - label: Il n'est ni dans mots.txt, ni dans mots-optionnels.txt, ni dans exclus.txt
           required: true
+        - label: Sans accent, le mot existe en anglais (il ira alors dans la liste optionnelle)
   - type: textarea
     id: remarques
     attributes:

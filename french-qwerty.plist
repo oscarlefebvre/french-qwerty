@@ -4,9 +4,21 @@
 <array>
 	<dict>
 		<key>phrase</key>
+		<string>activité</string>
+		<key>shortcut</key>
+		<string>activite</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>améliorer</string>
 		<key>shortcut</key>
 		<string>ameliorer</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>année</string>
+		<key>shortcut</key>
+		<string>annee</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -22,9 +34,51 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>arrêt</string>
+		<key>shortcut</key>
+		<string>arret</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>arrivée</string>
+		<key>shortcut</key>
+		<string>arrivee</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>aussitôt</string>
+		<key>shortcut</key>
+		<string>aussitot</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>bâtiment</string>
+		<key>shortcut</key>
+		<string>batiment</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>bibliothèque</string>
+		<key>shortcut</key>
+		<string>bibliotheque</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>bientôt</string>
+		<key>shortcut</key>
+		<string>bientot</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>ça</string>
 		<key>shortcut</key>
 		<string>ca</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>carrière</string>
+		<key>shortcut</key>
+		<string>carriere</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -34,9 +88,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>cœur</string>
+		<key>shortcut</key>
+		<string>coeur</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>complémentaire</string>
 		<key>shortcut</key>
 		<string>complementaire</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>complètement</string>
+		<key>shortcut</key>
+		<string>completement</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -70,15 +136,75 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>désormais</string>
+		<key>shortcut</key>
+		<string>desormais</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>deuxième</string>
+		<key>shortcut</key>
+		<string>deuxieme</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>développement</string>
+		<key>shortcut</key>
+		<string>developpement</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>développeur</string>
+		<key>shortcut</key>
+		<string>developpeur</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>difficulté</string>
+		<key>shortcut</key>
+		<string>difficulte</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>donnée</string>
 		<key>shortcut</key>
 		<string>donnee</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>données</string>
+		<key>shortcut</key>
+		<string>donnees</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>durée</string>
+		<key>shortcut</key>
+		<string>duree</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>école</string>
+		<key>shortcut</key>
+		<string>ecole</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>économie</string>
+		<key>shortcut</key>
+		<string>economie</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>écran</string>
 		<key>shortcut</key>
 		<string>ecran</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>écrire</string>
+		<key>shortcut</key>
+		<string>ecrire</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -142,6 +268,36 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>étudiant</string>
+		<key>shortcut</key>
+		<string>etudiant</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>évidemment</string>
+		<key>shortcut</key>
+		<string>evidemment</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>éviter</string>
+		<key>shortcut</key>
+		<string>eviter</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>façon</string>
+		<key>shortcut</key>
+		<string>facon</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>fenêtre</string>
+		<key>shortcut</key>
+		<string>fenetre</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>février</string>
 		<key>shortcut</key>
 		<string>fevrier</string>
@@ -154,9 +310,93 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>frère</string>
+		<key>shortcut</key>
+		<string>frere</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>frontière</string>
+		<key>shortcut</key>
+		<string>frontiere</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>généralement</string>
+		<key>shortcut</key>
+		<string>generalement</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>hôpital</string>
+		<key>shortcut</key>
+		<string>hopital</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>idée</string>
+		<key>shortcut</key>
+		<string>idee</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>identité</string>
+		<key>shortcut</key>
+		<string>identite</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>immédiatement</string>
+		<key>shortcut</key>
+		<string>immediatement</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>intéressant</string>
+		<key>shortcut</key>
+		<string>interessant</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>intérêt</string>
+		<key>shortcut</key>
+		<string>interet</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>journée</string>
+		<key>shortcut</key>
+		<string>journee</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>laïque</string>
 		<key>shortcut</key>
 		<string>laique</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>leçon</string>
+		<key>shortcut</key>
+		<string>lecon</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>liberté</string>
+		<key>shortcut</key>
+		<string>liberte</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>lumière</string>
+		<key>shortcut</key>
+		<string>lumiere</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>malgré</string>
+		<key>shortcut</key>
+		<string>malgre</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -166,15 +406,63 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>matière</string>
+		<key>shortcut</key>
+		<string>matiere</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>météo</string>
 		<key>shortcut</key>
 		<string>meteo</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>nécessaire</string>
+		<key>shortcut</key>
+		<string>necessaire</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>œil</string>
+		<key>shortcut</key>
+		<string>oeil</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>particulièrement</string>
+		<key>shortcut</key>
+		<string>particulierement</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>pédalier</string>
 		<key>shortcut</key>
 		<string>pedalier</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>père</string>
+		<key>shortcut</key>
+		<string>pere</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>plutôt</string>
+		<key>shortcut</key>
+		<string>plutot</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>possibilité</string>
+		<key>shortcut</key>
+		<string>possibilite</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>précisément</string>
+		<key>shortcut</key>
+		<string>precisement</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -196,9 +484,33 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>qualité</string>
+		<key>shortcut</key>
+		<string>qualite</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>réalité</string>
+		<key>shortcut</key>
+		<string>realite</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>récapitulatif</string>
 		<key>shortcut</key>
 		<string>recapitulatif</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>récemment</string>
+		<key>shortcut</key>
+		<string>recemment</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>reçu</string>
+		<key>shortcut</key>
+		<string>recu</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -244,6 +556,42 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>rivière</string>
+		<key>shortcut</key>
+		<string>riviere</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>santé</string>
+		<key>shortcut</key>
+		<string>sante</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>sécurité</string>
+		<key>shortcut</key>
+		<string>securite</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>société</string>
+		<key>shortcut</key>
+		<string>societe</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>sœur</string>
+		<key>shortcut</key>
+		<string>soeur</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>supplémentaire</string>
+		<key>shortcut</key>
+		<string>supplementaire</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>système</string>
 		<key>shortcut</key>
 		<string>systeme</string>
@@ -265,6 +613,24 @@
 		<string>très</string>
 		<key>shortcut</key>
 		<string>tres</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>troisième</string>
+		<key>shortcut</key>
+		<string>troisieme</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>université</string>
+		<key>shortcut</key>
+		<string>universite</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>vérité</string>
+		<key>shortcut</key>
+		<string>verite</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
