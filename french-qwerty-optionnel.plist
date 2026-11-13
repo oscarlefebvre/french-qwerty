@@ -10,6 +10,12 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>châteaux</string>
+		<key>shortcut</key>
+		<string>chateaux</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>compréhension</string>
 		<key>shortcut</key>
 		<string>comprehension</string>
@@ -22,9 +28,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>débuts</string>
+		<key>shortcut</key>
+		<string>debuts</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>décision</string>
 		<key>shortcut</key>
 		<string>decision</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>décisions</string>
+		<key>shortcut</key>
+		<string>decisions</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -40,9 +58,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>différences</string>
+		<key>shortcut</key>
+		<string>differences</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>élément</string>
 		<key>shortcut</key>
 		<string>element</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>éléments</string>
+		<key>shortcut</key>
+		<string>elements</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -52,15 +82,45 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>entrées</string>
+		<key>shortcut</key>
+		<string>entrees</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>étude</string>
 		<key>shortcut</key>
 		<string>etude</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>études</string>
+		<key>shortcut</key>
+		<string>etudes</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>façade</string>
+		<key>shortcut</key>
+		<string>facade</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>façades</string>
+		<key>shortcut</key>
+		<string>facades</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>gâteau</string>
 		<key>shortcut</key>
 		<string>gateau</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>gâteaux</string>
+		<key>shortcut</key>
+		<string>gateaux</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -76,9 +136,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>grâces</string>
+		<key>shortcut</key>
+		<string>graces</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>hôtel</string>
 		<key>shortcut</key>
 		<string>hotel</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>hôtels</string>
+		<key>shortcut</key>
+		<string>hotels</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -100,9 +172,33 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>kilomètres</string>
+		<key>shortcut</key>
+		<string>kilometres</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>maçon</string>
+		<key>shortcut</key>
+		<string>macon</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>maçons</string>
+		<key>shortcut</key>
+		<string>macons</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>matinée</string>
 		<key>shortcut</key>
 		<string>matinee</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>matinées</string>
+		<key>shortcut</key>
+		<string>matinees</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -118,9 +214,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>mères</string>
+		<key>shortcut</key>
+		<string>meres</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>mètre</string>
 		<key>shortcut</key>
 		<string>metre</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>mètres</string>
+		<key>shortcut</key>
+		<string>metres</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -136,15 +244,39 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>numéros</string>
+		<key>shortcut</key>
+		<string>numeros</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>œuvre</string>
 		<key>shortcut</key>
 		<string>oeuvre</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>œuvres</string>
+		<key>shortcut</key>
+		<string>oeuvres</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>première</string>
 		<key>shortcut</key>
 		<string>premiere</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>premières</string>
+		<key>shortcut</key>
+		<string>premieres</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>provençal</string>
+		<key>shortcut</key>
+		<string>provencal</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -172,9 +304,33 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>sélections</string>
+		<key>shortcut</key>
+		<string>selections</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>soirée</string>
 		<key>shortcut</key>
 		<string>soiree</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>soirées</string>
+		<key>shortcut</key>
+		<string>soirees</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>soupçon</string>
+		<key>shortcut</key>
+		<string>soupcon</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>soupçons</string>
+		<key>shortcut</key>
+		<string>soupcons</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -184,9 +340,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>télévisions</string>
+		<key>shortcut</key>
+		<string>televisions</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>théâtre</string>
 		<key>shortcut</key>
 		<string>theatre</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>théâtres</string>
+		<key>shortcut</key>
+		<string>theatres</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -199,6 +367,12 @@
 		<string>zéro</string>
 		<key>shortcut</key>
 		<string>zero</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>zéros</string>
+		<key>shortcut</key>
+		<string>zeros</string>
 	</dict>
 </array>
 </plist>
